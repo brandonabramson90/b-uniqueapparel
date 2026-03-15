@@ -1,0 +1,146 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Files are stored in your GitHub repo
+media_folder: "images/products"
+public_folder: "/images/products"
+
+# Show the CMS at /admin
+site_url: https://b-uniqueapparel.com
+display_url: https://b-uniqueapparel.com
+
+collections:
+  - name: "products"
+    label: "Products"
+    label_singular: "Product"
+    folder: "products"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    summary: "{{name}} — ${{price}}"
+    sortable_fields: ["name", "price", "category"]
+    view_filters:
+      - label: "Hoodies"
+        field: category
+        pattern: hoodies
+      - label: "Tops"
+        field: category
+        pattern: tops
+      - label: "Bottoms"
+        field: category
+        pattern: bottoms
+      - label: "Hats"
+        field: category
+        pattern: hats
+      - label: "Accessories"
+        field: category
+        pattern: accessories
+      - label: "Visible"
+        field: visible
+        pattern: true
+      - label: "Hidden"
+        field: visible
+        pattern: false
+
+    fields:
+      - label: "Product Name"
+        name: "name"
+        widget: "string"
+        hint: "e.g. Urban Hoodie — Fire Edition"
+
+      - label: "Price ($)"
+        name: "price"
+        widget: "number"
+        value_type: "float"
+        min: 0
+        step: 0.01
+        hint: "Enter retail price in USD"
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Hoodies", value: "hoodies" }
+          - { label: "Tops", value: "tops" }
+          - { label: "Bottoms", value: "bottoms" }
+          - { label: "Hats", value: "hats" }
+          - { label: "Accessories", value: "accessories" }
+
+      - label: "Product Photo"
+        name: "image"
+        widget: "image"
+        required: false
+        hint: "Upload your product photo (PNG or JPG)"
+
+      - label: "Printful Product URL"
+        name: "printful_url"
+        widget: "string"
+        required: false
+        hint: "e.g. https://b-uniquesapparel.printful.me/product/urban-hoodie"
+
+      - label: "Sizes Available"
+        name: "sizes"
+        widget: "select"
+        multiple: true
+        options:
+          - "XS"
+          - "S"
+          - "M"
+          - "L"
+          - "XL"
+          - "2XL"
+          - "3XL"
+          - "One Size"
+          - "13 inch"
+          - "15 inch"
+          - "16 inch"
+          - "iPhone 14"
+          - "iPhone 14 Pro"
+          - "iPhone 15"
+          - "iPhone 15 Pro"
+        default: ["S", "M", "L", "XL", "2XL"]
+
+      - label: "Has Color Options"
+        name: "has_color"
+        widget: "boolean"
+        default: true
+        hint: "Turn on if this product comes in multiple colors"
+
+      - label: "Badge"
+        name: "badge"
+        widget: "select"
+        required: false
+        options:
+          - { label: "None", value: "" }
+          - { label: "New", value: "b-new|New" }
+          - { label: "🔥 Hot", value: "b-hot|🔥 Hot" }
+          - { label: "Popular", value: "b-hot|Popular" }
+          - { label: "Best Seller", value: "b-hot|Best Seller" }
+          - { label: "Limited", value: "b-new|Limited" }
+        default: ""
+
+      - label: "Visible on Site"
+        name: "visible"
+        widget: "boolean"
+        default: true
+        hint: "Toggle off to hide this product without deleting it"
+
+      - label: "Featured Product"
+        name: "featured"
+        widget: "boolean"
+        default: false
+        hint: "Featured products appear larger in the shop grid"
+
+      - label: "Sort Order"
+        name: "sort_order"
+        widget: "number"
+        required: false
+        default: 99
+        hint: "Lower number = appears first (1 = top of page)"
+
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "Optional short description shown on hover"

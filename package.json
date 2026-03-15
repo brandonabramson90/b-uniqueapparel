@@ -1,0 +1,9 @@
+{
+  "name": "b-uniques-boutique",
+  "version": "1.0.0",
+  "description": "B-Uniques Boutique — Streetwear & Custom Design",
+  "dependencies": {
+    "stripe": "^14.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}

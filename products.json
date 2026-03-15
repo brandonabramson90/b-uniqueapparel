@@ -1,0 +1,558 @@
+[
+  {
+    "id": "urban-hoodie",
+    "name": "Urban Hoodie — Slap That",
+    "price": 55,
+    "category": "hoodies",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/urban-hoodie",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "has_color": true,
+    "badge": "b-hot|🔥 Best Seller",
+    "featured": true,
+    "sort_order": 1,
+    "description": ""
+  },
+  {
+    "id": "unisex-hoodie",
+    "name": "Unisex Hoodie — Slap That",
+    "price": 52,
+    "category": "hoodies",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/unisex-hoodie",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "has_color": true,
+    "badge": "b-new|New",
+    "featured": false,
+    "sort_order": 2,
+    "description": ""
+  },
+  {
+    "id": "urban-hoodie-b",
+    "name": "Urban Hoodie — B-Uniques Ed.",
+    "price": 55,
+    "category": "hoodies",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/urban-hoodie-698e2583eabb5",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 3,
+    "description": ""
+  },
+  {
+    "id": "cotton-hoodie",
+    "name": "Cotton Hoodie — Gold Crest",
+    "price": 69,
+    "category": "hoodies",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/unisex-cotton-hoodie",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "has_color": true,
+    "badge": "b-hot|Popular",
+    "featured": false,
+    "sort_order": 4,
+    "description": ""
+  },
+  {
+    "id": "cotton-hoodie-2",
+    "name": "Unisex Hoodie — B-Uniques Co.",
+    "price": 52,
+    "category": "hoodies",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/unisex-hoodie-69522cf71760b",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 5,
+    "description": ""
+  },
+  {
+    "id": "classic-tee-black",
+    "name": "Classic Tee — Neon Slap That",
+    "price": 34,
+    "category": "tops",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/unisex-classic-tee",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "has_color": true,
+    "badge": "b-hot|🔥 Hot",
+    "featured": false,
+    "sort_order": 6,
+    "description": ""
+  },
+  {
+    "id": "classic-tee-maroon",
+    "name": "Classic Tee — Slap That Struggle",
+    "price": 36,
+    "category": "tops",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/unisex-classic-tee-69522f36ad32d",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "has_color": false,
+    "badge": "b-new|New",
+    "featured": false,
+    "sort_order": 7,
+    "description": ""
+  },
+  {
+    "id": "football-jersey",
+    "name": "Boxy Football Jersey — B-Uniques",
+    "price": 48,
+    "category": "tops",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/boxy-football-jersey",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 8,
+    "description": ""
+  },
+  {
+    "id": "baby-tee",
+    "name": "Women's Micro Rib Raglan Baby Tee",
+    "price": 38,
+    "category": "tops",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/womens-micro-rib-raglan-baby-tee",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "has_color": true,
+    "badge": "b-new|New",
+    "featured": false,
+    "sort_order": 9,
+    "description": ""
+  },
+  {
+    "id": "raglan-a",
+    "name": "3/4 Sleeve Raglan — Slap That",
+    "price": 44,
+    "category": "tops",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/34-sleeve-raglan-shirt",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 10,
+    "description": ""
+  },
+  {
+    "id": "raglan-b",
+    "name": "3/4 Sleeve Raglan — Ed. 2",
+    "price": 46,
+    "category": "tops",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/34-sleeve-raglan-shirt-6969d054d2676",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 11,
+    "description": ""
+  },
+  {
+    "id": "bodycon-dress",
+    "name": "Bodycon Dress — B-Uniques Co.",
+    "price": 48,
+    "category": "tops",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/bodycon-dress",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "has_color": true,
+    "badge": "b-new|New",
+    "featured": false,
+    "sort_order": 12,
+    "description": ""
+  },
+  {
+    "id": "yoga-leggings",
+    "name": "Yoga Leggings — Flame Skull",
+    "price": 49,
+    "category": "bottoms",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/yoga-leggings",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "has_color": true,
+    "badge": "b-new|New",
+    "featured": false,
+    "sort_order": 13,
+    "description": ""
+  },
+  {
+    "id": "joggers",
+    "name": "Unisex Joggers — B-Uniques",
+    "price": 45,
+    "category": "bottoms",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/unisex-joggers",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 14,
+    "description": ""
+  },
+  {
+    "id": "sweatpants",
+    "name": "Unisex Fleece Sweatpants",
+    "price": 46,
+    "category": "bottoms",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/unisex-fleece-sweatpants",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "has_color": true,
+    "badge": "b-hot|Popular",
+    "featured": false,
+    "sort_order": 15,
+    "description": ""
+  },
+  {
+    "id": "snapback-hat",
+    "name": "Snapback Hat — White Gold",
+    "price": 32,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/snapback-hat",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": true,
+    "badge": "b-hot|Popular",
+    "featured": false,
+    "sort_order": 16,
+    "description": ""
+  },
+  {
+    "id": "snapback-hat-black",
+    "name": "Snapback Hat — Black",
+    "price": 32,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/snapback-hat",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 17,
+    "description": ""
+  },
+  {
+    "id": "dad-hat",
+    "name": "Dad Hat — Slap That Red",
+    "price": 28,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/dad-hat",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": false,
+    "badge": "",
+    "featured": false,
+    "sort_order": 18,
+    "description": ""
+  },
+  {
+    "id": "dad-hat-b",
+    "name": "Dad Hat — Fist & Flame",
+    "price": 28,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/dad-hat-69861f4db1802",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": false,
+    "badge": "",
+    "featured": false,
+    "sort_order": 19,
+    "description": ""
+  },
+  {
+    "id": "low-profile-cap",
+    "name": "Low Profile Cap — Gold Skull",
+    "price": 34,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/low-profile-baseball-cap",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 20,
+    "description": ""
+  },
+  {
+    "id": "distressed-hat",
+    "name": "Distressed Dad Hat — Khaki",
+    "price": 34,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/distressed-dad-hat",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": false,
+    "badge": "b-new|New",
+    "featured": false,
+    "sort_order": 21,
+    "description": ""
+  },
+  {
+    "id": "beanie-red",
+    "name": "Embroidered Beanie — Red",
+    "price": 26,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/embroidered-beanie",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 22,
+    "description": ""
+  },
+  {
+    "id": "beanie-orange",
+    "name": "Embroidered Beanie — Orange",
+    "price": 26,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/embroidered-beanie-69861f4c1ca36",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 23,
+    "description": ""
+  },
+  {
+    "id": "beanie-script",
+    "name": "Embroidered Beanie — Script",
+    "price": 26,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/embroidered-beanie-69861f4298be0",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": true,
+    "badge": "",
+    "featured": false,
+    "sort_order": 24,
+    "description": ""
+  },
+  {
+    "id": "organic-beanie",
+    "name": "Organic Ribbed Beanie — Maroon",
+    "price": 24,
+    "category": "hats",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/organic-ribbed-beanie",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": true,
+    "badge": "b-new|New",
+    "featured": false,
+    "sort_order": 25,
+    "description": ""
+  },
+  {
+    "id": "tote-bag",
+    "name": "Eco Tote Bag — B-Uniques Co.",
+    "price": 22,
+    "category": "accessories",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/eco-tote-bag",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": false,
+    "badge": "",
+    "featured": false,
+    "sort_order": 26,
+    "description": ""
+  },
+  {
+    "id": "magsafe-case",
+    "name": "MagSafe Tough Case — Slap That",
+    "price": 30,
+    "category": "accessories",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/magsafe-tough-case-for-iphone",
+    "sizes": [
+      "iPhone 14",
+      "iPhone 14 Pro",
+      "iPhone 15",
+      "iPhone 15 Pro"
+    ],
+    "has_color": false,
+    "badge": "",
+    "featured": false,
+    "sort_order": 27,
+    "description": ""
+  },
+  {
+    "id": "snap-case",
+    "name": "Snap Case — B-Uniques Skull",
+    "price": 32,
+    "category": "accessories",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/2399",
+    "sizes": [
+      "iPhone 14",
+      "iPhone 14 Pro",
+      "iPhone 15",
+      "iPhone 15 Pro"
+    ],
+    "has_color": false,
+    "badge": "",
+    "featured": false,
+    "sort_order": 28,
+    "description": ""
+  },
+  {
+    "id": "laptop-sleeve",
+    "name": "Laptop Sleeve — B-Uniques Flames",
+    "price": 40,
+    "category": "accessories",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/laptop-sleeve",
+    "sizes": [
+      "13 inch",
+      "15 inch",
+      "16 inch"
+    ],
+    "has_color": false,
+    "badge": "",
+    "featured": false,
+    "sort_order": 29,
+    "description": ""
+  },
+  {
+    "id": "mouse-pad",
+    "name": "Mouse Pad — Slap That",
+    "price": 20,
+    "category": "accessories",
+    "image": "",
+    "printful_url": "https://b-uniquesapparel.printful.me/product/mouse-pad",
+    "sizes": [
+      "One Size"
+    ],
+    "has_color": false,
+    "badge": "",
+    "featured": false,
+    "sort_order": 30,
+    "description": ""
+  }
+]

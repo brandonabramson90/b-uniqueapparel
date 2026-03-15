@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Confirmed — B-Uniques Boutique</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{--cr:#8b0000;--gold:#c9a84c;--blk:#0d0808;--dark:#160a0a;--wh:#f5f0eb;--mut:#8a7a6a;--brd:rgba(201,168,76,.15);}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--blk);color:var(--wh);font-family:"Barlow",sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;text-align:center;}
+.card{background:var(--dark);border:1px solid var(--brd);border-top:4px solid var(--gold);padding:60px 48px;max-width:560px;width:100%;}
+.icon{font-size:64px;margin-bottom:20px;animation:pop .6s cubic-bezier(.34,1.56,.64,1) forwards;}
+@keyframes pop{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+h1{font-family:"Bebas Neue",sans-serif;font-size:56px;letter-spacing:.04em;line-height:.9;margin-bottom:14px;}
+h1 span{color:var(--gold);}
+.sub{font-family:"Oswald",sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:24px;}
+p{font-size:16px;font-weight:300;line-height:1.75;color:rgba(245,240,235,.65);margin-bottom:16px;}
+.order-ref{font-family:"Oswald",sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;background:rgba(201,168,76,.08);border:1px solid var(--brd);padding:14px 20px;margin:28px 0;color:var(--mut);}
+.order-ref span{color:var(--gold);font-size:13px;}
+.steps{display:flex;flex-direction:column;gap:2px;margin:28px 0;}
+.step{display:flex;align-items:center;gap:14px;padding:14px 16px;background:rgba(0,0,0,.2);text-align:left;font-size:14px;font-weight:300;color:rgba(245,240,235,.65);}
+.step-n{font-family:"Bebas Neue",sans-serif;font-size:24px;color:rgba(139,0,0,.5);flex-shrink:0;line-height:1;}
+.btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:32px;}
+.btn-fire{font-family:"Oswald",sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;padding:13px 32px;background:var(--cr);color:var(--wh);border:none;text-decoration:none;display:inline-block;border-bottom:2px solid var(--gold);transition:background .2s;}
+.btn-fire:hover{background:#a50000;}
+.btn-gold{font-family:"Oswald",sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;padding:13px 32px;background:transparent;color:var(--gold);border:1.5px solid var(--gold);text-decoration:none;display:inline-block;transition:all .2s;}
+.btn-gold:hover{background:var(--gold);color:var(--blk);}
+.tagline{font-family:"Bebas Neue",sans-serif;font-size:18px;letter-spacing:.2em;color:rgba(245,240,235,.12);margin-top:44px;}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="icon">🔥</div>
+  <p class="sub">✦ Payment Confirmed</p>
+  <h1>ORDER<br><span>CONFIRMED!</span></h1>
+  <p>Your order is in and the flame is burning. Our team is preparing your item(s) for Printful fulfillment right now.</p>
+  
+  <div class="order-ref">
+    Order Reference: <span id="orderId">Loading...</span>
+  </div>
+
+  <div class="steps">
+    <div class="step"><span class="step-n">01</span>Payment received &amp; verified by Stripe</div>
+    <div class="step"><span class="step-n">02</span>Order auto-submitted to Printful for printing</div>
+    <div class="step"><span class="step-n">03</span>Printed, packed &amp; shipped (7–14 business days)</div>
+    <div class="step"><span class="step-n">04</span>Tracking number emailed to you when shipped</div>
+  </div>
+
+  <p style="margin-top:8px">A confirmation email has been sent to your inbox. Check your spam folder if you don't see it within a few minutes.</p>
+
+  <div class="btns">
+    <a href="/" class="btn-fire">Back to Store</a>
+    <a href="/#custom" class="btn-gold">Design Custom →</a>
+  </div>
+</div>
+<p class="tagline">NEVER LET THE FLAME DIE</p>
+
+<script>
+// Extract session ID from URL and display as order reference
+const params = new URLSearchParams(window.location.search);
+const sessionId = params.get("session_id");
+if (sessionId) {
+  // Show a shortened, human-readable reference
+  const shortRef = "BU-" + sessionId.slice(-8).toUpperCase();
+  document.getElementById("orderId").textContent = shortRef;
+} else {
+  document.getElementById("orderId").textContent = "BU-" + Date.now().toString(36).toUpperCase();
+}
+</script>
+</body>
+</html>
